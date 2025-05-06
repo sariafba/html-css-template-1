@@ -366,3 +366,44 @@ font-family: "Work Sans", sans-serif;
     color: #777;
 }
 /* end about */
+
+/* start contact */
+.contact {
+    padding: var(--section-padding) 0;
+    background-color: var(--third-color);
+}
+.contact .contact-content {
+    text-align: center;
+    margin-top: 100px;
+}
+.contact .contact-content p:first-of-type {
+    font-size: 35px;
+    font-weight: 800;
+    color: var(--secondary-color);
+    letter-spacing: -2px;
+    margin-bottom: 15px;
+}
+.contact .contact-content a {
+    display: block;
+    font-size: 35px;
+    font-weight: 800;
+    color: var(--main-color);
+    text-decoration: none;
+}
+.contact .contact-content .social {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.contact .contact-content .social i {
+    margin-left: 10px;
+    color: var(--secondary-color);
+}
+@media (max-width: 767px) {
+    .contact .contact-content a,
+    .contact .contact-content p:first-of-type {
+        font-size: 25px;
+    }
+}
+/*end contact */
